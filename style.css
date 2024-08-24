@@ -1,0 +1,85 @@
+
+body{
+    background-image: url(images/cities.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+.city{
+    padding: 0.1% 1%;
+    color:black;
+    font-size:27px;
+    text-align: center
+}
+
+
+*{
+    box-sizing: border-box;
+
+}
+img{
+    margin-left: 110px;
+    max-width: 80%;
+    height: auto;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map__wrapper{
+    max-width: 1200px;
+    position: relative;
+}
+.map__wrapper svg{
+    position: absolute;
+    top: 0;
+    left: -9px;
+    width: 100%;
+    height: 100%;
+}
+
+.map__wrapper svg path {
+    fill: none;
+    pointer-events: all; 
+    cursor: pointer; 
+}
+.map__wrapper svg path:hover {
+   color: aliceblue;
+   fill: rgba(255, 255, 255, 0.5);
+}
+
+
+.nachat{
+    font-size: 30px;
+    font-family: "Nunito";
+    font-weight: 700;
+    display: inline-block;
+    padding: 5px 95px;
+    border-radius: 50px;
+    user-select: none;
+    line-height: 1.5;
+    color: white;
+    margin: 43px;
+    background-color: black;
+    border: 1px solid black;
+    transition: all .7s;
+  }
+  .nachat:hover{
+    transform: scale(1.1);
+    cursor: pointer; 
+  }
+  .qwe{
+    user-select: none;
+    text-decoration: none;
+    color: white;
+  }
+
+
+ .razryv{
+height: 10x;
+ }

@@ -1,0 +1,172 @@
+html{
+    background-image: url(images/background1.png);
+    position: relative;
+}
+/*шапка сайта*/
+.header{
+    position: sticky;
+    background-color: #3979a8;
+    top: 0;
+    z-index: 3;
+    
+  }
+  .navbar{
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
+  
+  }
+  .navbar .conteiner{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  .navbar-menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    align-items: center;
+  }
+  .navbar-menu li{
+    display: inline-block;
+    
+  }
+  .navbar-menu li a{
+    font-family: "Merriweather";
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    align-items: center;
+    transition: all .2s ease-in-out;
+  }
+  .navbar-wrap{
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .navbar-brand{
+    font-weight: 700;
+    font-family: "Nunito";
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 10px;
+    align-items: center;
+  }
+  .logoimg{
+    height: 50px;
+    padding: 0;
+  }
+  .logo{
+    display: flex;
+  }
+  .navbar-menu li a:hover {
+    color: #183042 ;
+  }
+ /*заголовок*/
+ .nazvanie-goroda{
+    font-family: 'Nunito';
+    font-weight: 1000;
+    color: #183042;
+    display: inline;
+    padding: 70px;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+ }
+ /*организации левая часть*/
+ .organizacii-left{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    font-family: 'merriweather';
+    font-size: medium;
+    color: #183042;
+
+ }
+ .left-text1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+ .picture1{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+
+ }
+ .info{
+    font-family: 'merriweather';
+    flex: 1;
+ }
+ .info>h3>a{
+   text-decoration: none;
+   color: #183042;
+ }
+ .info>h3>a:hover{
+   color: #3979a8;
+ }
+ .left-text2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+ .picture2{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+ }
+ .left-text3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+ .picture3{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+ }
+ /*организации правая часть*/
+ .organizacii-right{
+    font-family: 'merriweather';
+    font-size: medium;
+    color: #183042;
+    margin-top: 10px;
+ }
+ .left-text4{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+ .picture4{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+ }
+ .left-text5{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+ .picture5{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+ }
+ .left-text6{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+ .picture6{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+ }
+
+

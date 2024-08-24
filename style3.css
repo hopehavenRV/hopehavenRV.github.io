@@ -1,0 +1,196 @@
+html{
+    background-image: url(images/background1.png);
+    width: 100%;
+
+
+}
+
+body{
+    font-family: 'merriweather';
+    margin: 0;
+    padding: 0;
+
+
+}
+/*Шапка сайта */
+.header{
+    position: sticky;
+    background-color: #3979a8;
+    top: 0;
+    z-index: 3;
+    
+  }
+  .navbar{
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .1);
+  
+  }
+  .navbar .conteiner1{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  .navbar-menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    align-items: center;
+  }
+  .navbar-menu li{
+    display: inline-block;
+    
+  }
+  .navbar-menu li a{
+    font-family: "Merriweather";
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    align-items: center;
+    transition: all .2s ease-in-out;
+  }
+  .navbar-wrap{
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .navbar-brand{
+    font-weight: 700;
+    font-family: "Nunito";
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 10px;
+    align-items: center;
+  }
+  .logoimg{
+    height: 50px;
+    padding: 0;
+  }
+  .logo{
+    display: flex;
+  }
+  .navbar-menu li a:hover {
+    color: #183042 ;
+  }
+  /*заголовок */
+.conteiner{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.title{
+    text-align: center;
+}
+.content{
+    position: absolute;
+    left: 60px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-left: 10px;
+    padding-left: 0;
+}
+.logo3{
+    max-width: 200px;
+    max-height: 200px;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+.dropdowns{
+display: flex;
+flex-direction: column;
+}
+.dropdown{
+    position: relative;
+    margin-bottom: 10px;
+}
+.dropdown-btn{
+    background-color: #055770;
+    color: #fff;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-left: 20px;
+    font-family: 'nunito';
+    font-size: medium;
+}
+.dropdown-btn1{
+    background-color: #055770;
+    color: #fff;
+    padding: 20px;
+    padding-left: 53px;
+    padding-right: 53px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-left: 20px;
+    font-family: 'nunito';
+    font-size: medium;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.button-btn1{
+    background-color: black;
+    border: 0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    color: #fff;
+    font-size: medium;
+    font-family: 'nunito';
+    cursor: pointer;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.button-btn1:hover{
+    transform: scale(1.1);
+    transition: 0.07s;
+}
+.button-btn1>a{
+    text-decoration: none;
+    user-select: none;
+    color: #fff;
+}
+.button-btn2{
+    background-color: black;
+    border: 0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    color: #fff;
+    font-size: medium;
+    font-family: 'nunito';
+    padding-left: 100px;
+    padding-right: 100px;
+    cursor: pointer;
+}
+.button-btn2:hover{
+    transform: scale(1.1);
+    transition: 0.07s;
+}
+.button-btn2>a{
+    text-decoration: none;
+    user-select: none;
+    color: #fff;
+}
